@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Website</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    /* Style for Glowing Logo Container */
+.glow-logo-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+}
+
+/* Style for Glowing Logo */
+.glow-logo {
+  animation: glow 2s infinite alternate;
+  width: 200px; /* Adjust the width as needed */
+}
+
+/* Homepage Section Styles */
+.homepage-section {
+  padding: 100px 0;
+  text-align: center;
+  background-image: url('/Images/Luna\ home\ bg-22.jpg'); /* Replace 'your-image.jpg' with the path to your image */
+  background-size: cover;
+  color: white;
+  height: auto;
+  
+}
+
+/* Other Section Styles (About, Services, Contact) */
+/* Add your own styles here */
+
+/* Text on Image */
+.image-text {
+  position: absolute;
+  top: 50%;
+  left: 20px; /* Adjust the left position as needed */
+  transform: translateY(-50%);
+}
+
+/* Link on Image */
+.image-link {
+  color: black;
+}
+
+
+
+
+</style>
+<body>
+  <!-- Glowing Logo Section -->
+  <div class="p-2 justify-content-center align-items-center bg-info">
+  </div>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Your Website</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Homepage Content -->
+  <section id="home" class="homepage-section">
+    <!-- Your homepage content goes here -->
+    <div class="container">
+      <div class="row" style="height: 100vh;">
+        <div class="col-md-6">
+          <div class="image-text">
+            <h1>Welcome to Your Website</h1>
+            <a href="#" class="image-link">Learn More</a>
+            <span>Some additional text</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section bg-light">
+    <!-- About section content goes here -->
+    <div class="container">
+      <h2>About Us</h2>
+      <p>This is the about section content.</p>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services-section">
+    <!-- Services section content goes here -->
+    <div class="container">
+      <h2>Our Services</h2>
+      <p>This is the services section content.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section bg-light">
+    <!-- Contact section content goes here -->
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>This is the contact section content.</p>
+    </div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

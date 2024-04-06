@@ -1,0 +1,164 @@
+@font-face {
+  font-family: 'Anton';
+  src: url(/font&Icon/Anton-Regular.ttf) format('truetype');
+
+}
+@font-face {
+  font-family: 'Fugazone';
+  src: url(/font&Icon/FugazOne-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Gurajada';
+  src: url(/font&Icon/Gurajada-Regular.ttf) format('truetype');
+
+}
+@font-face {
+  font-family: 'bebas';
+  src: url(/font&Icon/BebasNeue-Regular.ttf) format('truetype');
+  
+}
+@font-face {
+  font-family: 'radley';
+  src: url(/font&Icon/RadleySans-ZVYBK.ttf) format('truetype');
+  
+}
+
+
+
+.homepage-section {
+    padding:0px 0;
+    background-image: url('/Images/luna-bg-3.jpg'); 
+    background-size: cover;
+    color: white;
+
+  }
+
+  .home-bg-text {
+    position: absolute;
+    top: 65%;
+    left: 10%; 
+    transform: translateY(-50%);
+  }
+
+ 
+
+
+@keyframes pop-in {
+  0% {
+    opacity: 0;
+    transform: translateX(-40%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-pop-in {
+  animation-name: pop-in;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+  .luna-home-h1{
+    font-family: 'fugazone', sans-serif;
+    font-size: 60px;
+  }
+
+  .home-bg-btn {
+    color: white;
+    text-decoration: none;
+   font-weight: bolder;
+
+  }
+
+  .home-bg-btn:hover{
+    color: white;
+  }
+ 
+  
+  .hiw-tran-btn {
+    position: relative;
+    overflow: hidden;
+    border: 3px solid #0dcaf0 ;
+  }
+  
+  .hiw-tran-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0dcaf0 !important; 
+    z-index: -1;
+    transition: transform 0.3s ease;
+    transform: translateX(-100%);
+  }
+  
+  .hiw-tran-btn:hover::before {
+    transform: translateX(0);
+  }
+  
+  
+  .offer-bar{
+  background-image: linear-gradient(to right, rgb(138, 138, 220), #0dcaf0);
+
+    /* background-color:#0dcaf0!important; */
+    background-size: contain;
+    
+  }
+
+
+    
+  .hiw-section{
+    background-color: rgba(135, 207, 235, 0.145) !important;
+    
+  }
+  .hiw-section h2:hover{
+    color: #0dcaf0;
+  }
+  .down-apply{
+    background-image: url(/Images/agreement-closeup.jpg);
+    background-size: cover;
+  }
+
+  
+  
+
+  @media screen and (max-width:600px){
+    *{
+        box-sizing: border-box;
+        
+    }
+    .homepage-section{
+      background-image: url(/Images/luna-bg-2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 80px;
+      
+    }
+    .home-bg-text {
+      position: absolute !important;
+      top: 55% !important;
+      left: 10%; 
+      transform: translateY(-50%);
+      
+    }
+    .image-span{
+        font-size: 30px;
+    }
+
+    .luna-home-h1{
+      font-size: 25px;
+    }
+
+    .wcu-div{
+      padding: 1px !important;
+      margin-top: 1px !important;
+    
+    }
+
+
+}

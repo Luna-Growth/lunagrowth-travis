@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'Anton';
+    src: url(/font&Icon/Anton-Regular.ttf) format('truetype');
+  
+  }
+  @font-face {
+    font-family: 'Fugazone';
+    src: url(/font&Icon/FugazOne-Regular.ttf) format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Gurajada';
+    src: url(/font&Icon/Gurajada-Regular.ttf) format('truetype');
+  
+  }
+  @font-face {
+    font-family: 'bebas';
+    src: url(/font&Icon/BebasNeue-Regular.ttf) format('truetype');
+    
+  }
+  @font-face {
+    font-family: 'radley';
+    src: url(/font&Icon/RadleySans-ZVYBK.ttf) format('truetype');
+    
+  }
+  .shadow{
+    box-shadow: 10px 20px 15px black;
+  }
+
+
+  .sign-txt{
+    font-family: 'gurajada';
+    font-size: 90px !important;
+  }
+  .social-login,
+  .div-separator{
+    width: 50% !important;
+  }
+
+  .social-btn{
+    border: 2px solid #f1f1f1 ;
+    border-radius: 30px;
+    padding: 16.50px 20px;
+    text-transform: none;
+    
+  }
+
+  .social-btn:hover{
+    background-color: #0dcaf0;
+    font-weight: bolder;
+    color: white;
+  }
+.div-separator {
+    position: relative;
+  }
+  
+  .div-separator::before {
+    content: "";
+    height: 1px;
+    background: grey;
+    display: block;
+    width: 100%;
+  }
+  
+  .div-separator span {
+    position: absolute;
+    top: 50%;
+    margin-left: -22.5px;
+    left: 50%;
+    text-align: center;
+    background: white;
+    margin-top: -11px;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    width: 35px;
+    text-transform: uppercase;
+  }
+
+  .custom-btn{
+    background-color: black;
+    color: white;
+    border-radius: 10px !important;
+    text-align: center;
+    padding: 15px 0;
+    font-family: 'gurajada';
+    font-size: 25px;
+    
+  }
+
+  
+.custom-btn {
+    background-color: transparent;
+    border: 2px solid #0dcaf0; 
+    color: #0dcaf0; 
+    padding: 10px 20px;
+    position: relative; 
+    overflow: hidden;
+}
+
+.custom-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: #0dcaf0; 
+    transition: left 0.3s ease; 
+    z-index: -1; 
+}
+
+.custom-btn:hover::before {
+    left: 0; 
+}
+
+.text a{
+    text-decoration: none;
+ }
+  .text a:hover{
+    color: #0dcaf0;
+  }
+
+  @media screen and (max-width:600px){
+    .social-login,
+    .div-separator{
+        width: 75% !important;
+    }
+  }
+  

@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Anton';
+    src: url(/font&Icon/Anton-Regular.ttf) format('truetype');
+  
+  }
+  @font-face {
+    font-family: 'Fugazone';
+    src: url(/font&Icon/FugazOne-Regular.ttf) format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Gurajada';
+    src: url(/font&Icon/Gurajada-Regular.ttf) format('truetype');
+  
+  }
+  @font-face {
+    font-family: 'bebas';
+    src: url(/font&Icon/BebasNeue-Regular.ttf) format('truetype');
+    
+  }
+  @font-face {
+    font-family: 'radley';
+    src: url(/font&Icon/RadleySans-ZVYBK.ttf) format('truetype');
+    
+  }
+
+.about-us-bg{
+    background-image: url(/Images/about-us-bg.jpg);
+    background-size: cover;
+    padding: 50px 20px ;
+}
+
+.abt-text{
+    font-family: 'fugazone';
+    font-size: 75px;
+    color: #f1f1f1 !important;
+}
+.abt-text-ul{
+    border-bottom: #f1f1f1 solid 7px;
+    width: 150px;
+}
+.abt-con{
+    background-color: #ddf3fb !important;
+}
+
+.wcu-section{
+  background-color: rgba(135, 207, 235, 0.145) !important;;
+}

@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Oswald'; 
+    src: url('/font&Icon/Oswald/Oswald-Bold.ttf') format('truetype');
+         
+    
+  }
+
+
+
+
+.logo{
+    width: 110px;
+}
+
+.luna-ul{
+    font-weight: 600 !important;
+    
+}
+.luna-ul a:hover{
+    color: #0dcaf0!important;
+}
+
+
+.luna-drop a{
+    font-weight: 500 !important;
+    
+}
+.luna-drop a:hover{
+ color: black;
+}
+
+
+.closing-nav h3 a{
+    padding: 0;
+    width: auto;
+  }
+  .closing-nav h3 a:hover{
+    color: #0dcaf0;
+  }
+
+  .closing-nav a{
+    text-decoration: none;
+    color: grey;
+    display: block;
+    padding: 10px 0;
+    width: 90px;
+  }
+
+  .closing-nav a:hover{
+    color: #0dcaf0 !important;
+  }
+
+  .closing-nav i {
+    color: grey;
+    width: 50px; 
+    
+  }
+
+  .closing-nav i:hover{
+    color: #0dcaf0;
+  }
+
+
+
+
+@media screen and (max-width:600px){
+    .logo{
+        width: 90px;  
+        
+    }
+ 
+    .Lunanav{
+        width: 100vw;
+    }
+    
+
+}
